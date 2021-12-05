@@ -1,0 +1,63 @@
+.navi{
+  color: DarkBlue;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  padding: 10px;
+  flex-wrap: no-wrap;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 40px;
+  align-items: center;
+}
+
+.menu{
+  color: DarkBlue;
+  display: flex;
+  font-size: 15px;
+  padding: 10px;
+  margin: 0px 0px 0px auto;
+  align-items: center;
+}
+
+.content{
+  margin: 30px;
+  position: relative;
+  top: 300px;
+  display: block;
+  width:100%;
+}
+
+
+.text{
+  color: black;
+  font-size: 50px;
+  font-weight: 540;
+
+}
+
+.box{
+  background:  DarkBlue;
+  width: 700px;
+  height: 150px;
+
+}
+
+img{
+  display: block;
+  width: 60%;
+  position: relative;
+  top: -130%;
+  left: 70%;
+}
